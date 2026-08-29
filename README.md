@@ -40,25 +40,25 @@ The selected screens below document the complete bidding journey: **search → i
 
 ### 1. Search & Results
 
-<img src="assets/project-2/bid-search-wireframe.jpg" alt="College textbook auction search and results paper wireframe" width="720">
+<img src="assets/bid-search-wireframe.jpg" alt="College textbook auction search and results paper wireframe" width="720">
 
 This opening screen establishes the search-first workflow. A user searches for a textbook, reviews matching results, and uses pricing or filtering cues to decide which listing to inspect.
 
 ### 2. Detailed Listing & Bid Entry
 
-<img src="assets/project-2/bid-detail-wireframe.jpg" alt="College textbook auction detailed listing and bid entry paper wireframe" width="720">
+<img src="assets/bid-detail-wireframe.jpg" alt="College textbook auction detailed listing and bid entry paper wireframe" width="720">
 
 The detailed listing presents the information needed before bidding, including the textbook title, author, description, current bid, auction end time, and a field for entering a bid amount.
 
 ### 3. Bid Confirmation
 
-<img src="assets/project-2/bid-confirmation-wireframe.jpg" alt="College textbook auction bid confirmation paper wireframe" width="720">
+<img src="assets/bid-confirmation-wireframe.jpg" alt="College textbook auction bid confirmation paper wireframe" width="720">
 
 The confirmation state gives the user a final review point before committing the bid. This helps prevent accidental submissions and provides a clear confirm-or-cancel decision.
 
 ### 4. Sequential Bid Flow
 
-<img src="assets/project-2/bid-flow-confirmation.jpg" alt="College textbook auction sequential bid and confirmation flow" width="720">
+<img src="assets/bid-flow-confirmation.jpg" alt="College textbook auction sequential bid and confirmation flow" width="720">
 
 This sequential view demonstrates how the prototype changes after the user enters a bid and proceeds to confirmation, making the interaction logic visible even in a low-fidelity paper prototype.
 
@@ -135,11 +135,11 @@ college-textbook-auction-paper-prototype/
 ├── README.md
 ├── PROJECT_INFO.md
 ├── assets/
+│   ├── bid-search-wireframe.jpg
+│   ├── bid-detail-wireframe.jpg
+│   ├── bid-confirmation-wireframe.jpg
+│   ├── bid-flow-confirmation.jpg
 │   └── project-2/
-│       ├── bid-search-wireframe.jpg
-│       ├── bid-detail-wireframe.jpg
-│       ├── bid-confirmation-wireframe.jpg
-│       ├── bid-flow-confirmation.jpg
 │       └── README.md
 └── reports/
     ├── README.md
