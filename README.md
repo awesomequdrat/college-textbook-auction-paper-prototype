@@ -36,31 +36,16 @@ Key parts of my work included:
 
 ## Selected Paper Prototype Screens
 
-The strongest screens from my documented bidding task are organized around the complete user journey: **search -> inspect -> bid -> confirm**.
+The strongest screens from my documented bidding task tell the complete user journey: **search -> inspect -> bid -> confirm**.
 
-### Search & Results
+| Screen | What it demonstrates |
+| --- | --- |
+| Search & Results | Search-first workflow, keywords, results, and filtering/pricing cues |
+| Detailed Listing & Bid Entry | Book information, current bid, auction end time, and bid amount entry |
+| Bid Confirmation | Final review point with confirmation/cancel actions |
+| Sequential Flow | How the user progresses from bidding to confirmation |
 
-The first screen explores a search-first workflow with results and filtering/pricing cues.
-
-<img src="assets/project-2/bid-search-wireframe.jpg" alt="Paper prototype showing textbook search and bidding results" width="850">
-
-### Detailed Listing & Bid Entry
-
-The detailed listing separates book information from the bidding area so the user can review the item before committing to a bid.
-
-<img src="assets/project-2/bid-detail-wireframe.jpg" alt="Paper prototype detailed textbook listing and bid amount entry" width="850">
-
-### Bid Confirmation
-
-The confirmation state gives the user a final review point and preserves the option to cancel before completing the action.
-
-<img src="assets/project-2/bid-confirmation-wireframe.jpg" alt="Paper prototype bid confirmation screen" width="850">
-
-### Confirmation in the Sequential Flow
-
-This screen captures the later part of the task flow, where the user enters a bid amount and confirms the bid.
-
-<img src="assets/project-2/bid-flow-confirmation.jpg" alt="Sequential paper prototype flow showing bid entry and confirmation" width="650">
+The selected images belong in `assets/project-2/` and are documented in [`assets/project-2/README.md`](assets/project-2/README.md).
 
 ## Interaction & UX Concepts
 
@@ -106,7 +91,7 @@ This was a collaborative team project completed by:
 | Chris Parker | Task 4 - Comparing Offers |
 | Aaron Rovnak | Team member; Task 1 ownership is not explicitly labeled in the report text |
 
-This repository presents the complete project context while clearly identifying **Task 2 and the bidding screens above as my documented individual work**.
+This repository presents the complete project context while clearly identifying **Task 2 and the bidding flow as my documented individual work**.
 
 ## Skills Demonstrated
 
@@ -124,23 +109,23 @@ This repository presents the complete project context while clearly identifying 
 
 ## Full Project Report
 
-The complete course report includes the full team prototype, sequential storyboards, design-pattern discussion, fidelity analysis, inspirations, and team critique.
+The complete course report includes the full team prototype, sequential storyboards, design-pattern discussion, fidelity analysis, inspirations, and team critique. The intended repository location is:
 
-[View the full Project 2 paper prototype report](reports/prototype-project-2-paper-prototype.pdf)
+`reports/prototype-project-2-paper-prototype.pdf`
+
+See [`reports/README.md`](reports/README.md) for report details.
 
 ## Repository Structure
 
 ```text
 college-textbook-auction-paper-prototype/
 ├── README.md
+├── PROJECT_INFO.md
 ├── assets/
 │   └── project-2/
-│       ├── bid-search-wireframe.jpg
-│       ├── bid-detail-wireframe.jpg
-│       ├── bid-confirmation-wireframe.jpg
-│       └── bid-flow-confirmation.jpg
+│       └── README.md
 └── reports/
-    └── prototype-project-2-paper-prototype.pdf
+    └── README.md
 ```
 
 ## Academic Context
