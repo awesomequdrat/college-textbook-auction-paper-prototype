@@ -34,18 +34,33 @@ Key parts of my work included:
 - Placing a bid through a clear action button
 - Confirming or canceling the bid in a confirmation step
 
-## Selected Paper Prototype Screens
+## Paper Prototype Gallery
 
-The strongest screens from my documented bidding task tell the complete user journey: **search -> inspect -> bid -> confirm**.
+The selected screens below document the complete bidding journey: **search → inspect → bid → confirm**.
 
-| Screen | What it demonstrates |
-| --- | --- |
-| Search & Results | Search-first workflow, keywords, results, and filtering/pricing cues |
-| Detailed Listing & Bid Entry | Book information, current bid, auction end time, and bid amount entry |
-| Bid Confirmation | Final review point with confirmation/cancel actions |
-| Sequential Flow | How the user progresses from bidding to confirmation |
+### 1. Search & Results
 
-The selected images belong in `assets/project-2/` and are documented in [`assets/project-2/README.md`](assets/project-2/README.md).
+<img src="assets/project-2/bid-search-wireframe.jpg" alt="College textbook auction search and results paper wireframe" width="720">
+
+This opening screen establishes the search-first workflow. A user searches for a textbook, reviews matching results, and uses pricing or filtering cues to decide which listing to inspect.
+
+### 2. Detailed Listing & Bid Entry
+
+<img src="assets/project-2/bid-detail-wireframe.jpg" alt="College textbook auction detailed listing and bid entry paper wireframe" width="720">
+
+The detailed listing presents the information needed before bidding, including the textbook title, author, description, current bid, auction end time, and a field for entering a bid amount.
+
+### 3. Bid Confirmation
+
+<img src="assets/project-2/bid-confirmation-wireframe.jpg" alt="College textbook auction bid confirmation paper wireframe" width="720">
+
+The confirmation state gives the user a final review point before committing the bid. This helps prevent accidental submissions and provides a clear confirm-or-cancel decision.
+
+### 4. Sequential Bid Flow
+
+<img src="assets/project-2/bid-flow-confirmation.jpg" alt="College textbook auction sequential bid and confirmation flow" width="720">
+
+This sequential view demonstrates how the prototype changes after the user enters a bid and proceeds to confirmation, making the interaction logic visible even in a low-fidelity paper prototype.
 
 ## Interaction & UX Concepts
 
@@ -109,11 +124,9 @@ This repository presents the complete project context while clearly identifying 
 
 ## Full Project Report
 
-The complete course report includes the full team prototype, sequential storyboards, design-pattern discussion, fidelity analysis, inspirations, and team critique. The intended repository location is:
+The complete course report includes the full team prototype, sequential storyboards, design-pattern discussion, fidelity analysis, inspirations, and team critique.
 
-`reports/prototype-project-2-paper-prototype.pdf`
-
-See [`reports/README.md`](reports/README.md) for report details.
+[**View the full Project 2 report (PDF)**](reports/prototype-project-2-paper-prototype.pdf)
 
 ## Repository Structure
 
@@ -123,9 +136,14 @@ college-textbook-auction-paper-prototype/
 ├── PROJECT_INFO.md
 ├── assets/
 │   └── project-2/
+│       ├── bid-search-wireframe.jpg
+│       ├── bid-detail-wireframe.jpg
+│       ├── bid-confirmation-wireframe.jpg
+│       ├── bid-flow-confirmation.jpg
 │       └── README.md
 └── reports/
-    └── README.md
+    ├── README.md
+    └── prototype-project-2-paper-prototype.pdf
 ```
 
 ## Academic Context
